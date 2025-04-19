@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url("./images/hospital-57357.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+/*--start nav --*/  
+
+header nav 
+{
+    color: white;
+    background-color: black;
+    display: flex; 
+    justify-content: space-between;
+    padding:  10px;
+}
+
+
+header nav div a {
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-left:10px;
+} 
+
+/*    <!--end nav -->    */
+
+/*---------------------------------------*/
+
+/* start header content*/
+.header-content  {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content h2
+ {
+    color: white;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+.header-content  p {
+    color: white;
+}
+.header-content a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    display:inline-block;
+    margin: 6px 10px;
+    border-radius: 2PX;
+    -webkit-border-radius: 2PX;
+    -moz-border-radius: 2PX;
+    -ms-border-radius: 2PX;
+    -o-border-radius: 2PX;
+}
+
+.header-content a:nth-of-type(1)
+{
+    background-color: rgb(111 15 65);
+}
+
+.header-content a:nth-of-type(2)
+{  
+    background-color: rgb(44 146 121);
+}
+/* end header content*/
+
+/*--------------------------------------------------------*/
+
+/*start mian sectin1*/
+
+main h3 {
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+main hr {
+    height: 2px;
+    width: 100px;
+    margin: auto;
+    background-color: red;
+   
+}
+.mian-section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mian-section1 img
+{
+   margin-top: 50px;
+    width: 40%;
+    text-align: center;
+}
+.mian-section1 p{
+    margin-top: 50px;
+    width: 40%;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+/*end mian sectin1*/
+
+/*------------------------------------------------------------*/
+
+/*start mian sectin2*/
+.mian-section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+}
+.mian-section2 div {
+    width: 45%;
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.132);
+}
+
+.mian-section2 img {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+}
+
+.mian-section2 p{
+    text-align: center;
+    margin: 20px;
+}

@@ -1,0 +1,10 @@
+body {
+    height: 2000px;
+}
+div{
+    background-image: url(beautiful-city-.jpg);
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0px -400px;
+}

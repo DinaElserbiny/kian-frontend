@@ -1,0 +1,53 @@
+
+
+body {
+    font-family: cursive;
+    margin: 0px;
+    text-transform: capitalize;
+}
+
+
+/* start home section */
+.Home{
+    background-image: url(./images/pexels-kyrylo-zahorodniy-211352452-12745006.jpg);
+    height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0px -150px;
+}
+/* end home section */
+
+
+/* start nav section */
+.Home .nav {
+   padding-top: 20px;
+}
+.Home .nav a{
+    text-decoration: none;
+    color: black;
+    margin:15px;
+    font-weight: 600;
+    letter-spacing: 1.5px
+}
+/* end nav section */
+
+
+/*start header section*/
+.Home .Header {
+    text-align: center;
+    margin-top: 125px;
+}
+
+.Home .Header button{
+    color: white;
+    margin-left: 8px;
+    background-color: #486302;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+/*end header section*/

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <div>   
+    <form action="test1.html">
+        <!--to choose on chooice-->
+        <label>country</label>
+        <select name="country">
+            <optgroup label="Arabic">
+              <option>Egypt</option>
+              <option>Soudia</option>
+              <option>Aman</option>
+            </optgroup>
+
+            <optgroup label="English">
+                <option>USA</option>
+                <option>Brtnia</option>
+            </optgroup>
+        </select>
+
+        <br>
+        <br>
+
+        <!--'Data List' like 'select'
+         Datalist TO search -->
+
+        <label>color</label>
+        <input type="texr" list="color">
+        <datalist>
+            <option>red</option>
+            <option>blue</option>
+            <option>green</option>  
+        </datalist>
+
+        <br>
+        <br>
+
+        <!--textarea : to write large massage-->
+        <label>Massage</label>
+        <br>
+        <textarea rows="5" cols="20" placeholder="Write here...." maxlength="100"></textarea>
+
+        <br>
+        <br>
+
+        <!--when click here data will send to test1 file-->
+        <input type="submit" value="login">
+
+        <!--TO creat boutton send data to "anther" backend file-->
+        <input type="submit" value="creat new account" formaction="test2.html" formmethod="post" formtarget="_self">
+
+        <input type="reset" value="delete">
+
+    </form>
+</div>
+
+
+<div>
+    <video  autoplay muted controls preload="metadata" width="250px" height="250px" 
+    poster="../img&video/pexels-m-venter-792254-1659438.jpg">
+        <source src="../img&video/1448735-uhd_4096_2160_24fps.mp4"></source>
+    </video>
+</div>
+
+    <br>
+    <br>
+<div>
+    <audio muted controls>
+        <source src=""></source>
+    </audio>
+</div>
+
+<div>
+    <!--some tag at html-->
+
+    <!--span-->
+    <p>Lorem ipsum dolor sit, amet<span style="color: red;"> consectetur</span> adipisicing elit. Quaerat, placeat?</p>
+
+    <!--mark-->
+    <mark>highlight</mark>
+
+    <br>
+
+    <!--underline-->
+    <u>underline</u>
+ <br>
+    <!--small-->
+    <small>textsmall</small>
+
+ <br>
+ <p>h<sub>2</sub>o</p>
+ <p>5<sup>2</sup></p>
+ <p>150<del>200</del></p>
+
+ 
+
+
+</div>
+</body>
+</html>

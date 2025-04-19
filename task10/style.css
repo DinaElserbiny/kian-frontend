@@ -1,0 +1,43 @@
+.header-home {
+    background-image: url('./imges/download.jpg');
+    height: 700px;
+    background-size: cover;
+}
+
+.header-home p{
+    background-color: rgb(109 171 149 / 86%);
+    margin: 200px 100px;
+    color: white;
+    font-size: 55px;
+    letter-spacing: 3px;
+    font-weight: 6500;
+    padding: 50px 47px 50px 30px;
+    border-radius: 31px;
+}
+@media only screen and (max-width:576px)
+{
+    .header-home {
+        height: fit-content;
+        padding-bottom: px
+    }
+    .header-home p{
+        font-size: 30px;
+    }
+}
+
+.school-home hr {
+    width: 2500px;
+    margin: auto;
+    height: 4px;
+    border: none;
+    background-color: blue ;
+
+}
+
+.touch-home {
+background-image: url(../img/img/Path\ 62.png), url(../img/img/i-love-my-job-so-much_329181-2178.png);
+height: 700px;
+background-size: cover;
+}
+
+

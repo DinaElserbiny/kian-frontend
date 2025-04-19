@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+     <!--click button to viw date now-->
+    <button onclick="document.getElementById('date').innerHTML= 'Date now is :' + Date()"; 
+    class="btn btn-success px-5 m-5">click to view Date</button>
+    <p id="date"> </p>
+
+    <hr>
+
+<!--click to turn on and turn off laba-->
+<button onclick="document.getElementById('imagelaba').src='./off.gif'";
+class="px-4 btn btn-danger">turn off</button>
+<img id="imagelaba" src="./off.gif">
+<button onclick="document.getElementById('imagelaba').src='./onngif.gif'  ";
+class="px-4 btn btn-success">turn on</button>
+
+
+    <script src="../bootstrap/jquery.slim.min.js"></script>
+    <script src="../bootstrap/popper.min.js"></script>
+    <script src="../bootstrap/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<div class="first-section">
+          <!--row one-->
+          <div>
+            <p>Product</p>
+            <p>price</p>
+            <p>Quantity</p>
+            <p>subtotal</p>
+          </div>
+            
+          <!--row two-->
+          <div>
+            <p><img src="../images/imagatpagecart1.png"><span> Monitor</span></p>
+            <p>&650</p>
+            <p><input type="number" min="1" value="01"></p>
+            <p>$650</p>
+          </div>
+         <!--row three-->
+          <div>
+            <p><img src="../images/imagecart2.png"><span>HI Gamepad</span></p>
+            <p>&550</p>
+            <p><input type="number" min="1" value="02"></p>
+            <p>$1100</p>
+          </div>
+        
+        </div>
+      
+          <div class="button-middel">
+            <a href="homepage">Return To Shop</a>
+            <button id="Updatecart"> Update Cart </button>
+            
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+css:
+
+
+.first-section {
+   
+     margin: auto;
+    width:80%;
+  
+}
+.first-section div {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  padding: 25px 0;
+  box-shadow: 0px 1px 13px 5px rgba(0, 0, 0, 0.024);
+  border-radius:4px ;
+  -webkit-border-radius:4px ;
+  -moz-border-radius:4px ;
+  -ms-border-radius:4px ;
+  -o-border-radius:4px ;
+}
+
+.first-section div img {
+}
+.first-section div:nth-of-type(3) p:nth-of-type(1) span 
+{
+    padding: 2px;
+}

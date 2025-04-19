@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="backend.html">
+        <!--make border-->
+        <fieldset>
+            <!--make title-->
+            <legend>Porsnal information </legend>
+
+         <label>User Name</label>
+         <input type="text" placeholder="Enter yourname" name="Name">
+
+         <br>
+         <br>
+
+         <label>Email</label>
+         <input type="email" name="email">
+
+         <br>
+         <br>
+
+         <label>Passward</label>
+         <input type="password" name="password">
+
+         <br>
+         <br>
+ 
+        <!--Radio-->
+         <label>Gender</label>
+         
+        <!--
+         'id' link by 'for': to help when "click" at text .
+          name : to make radio from same type "gender" and make click on "one choise"
+          value: to send value backend
+         -->
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label> 
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <br>
+        <br>
+
+         <!--checklist-->
+         <label> fav sport </label>
+         <input type="checkbox" value="football" id="football"> 
+         <label for="football">football</label>
+
+         <input type="checkbox" value="basketball" id="basketball"> 
+         <label for="basketball">basketball</label>
+
+         <input type="checkbox" value="tennis" id="tennis"> 
+         <label for="tennis">tennis</label>
+
+         <input type="checkbox" value="vollyball" id="vollyball"> 
+         <label for="vollyball">vollyball</label>
+
+        <br>
+        <br>
+
+        <!--upload file-->
+        <label>upload cv</label>
+         <input type="file">
+
+         <br>
+         <br>
+
+         <!--range-->
+         <label>price</label>
+         <input type="range" min="0" max="1000"  step="50">
+
+         <!--color-->
+         <label>color?</label>
+         <input type="color">
+
+         <br>
+         <br>
+
+         <!--date time your device-->
+         <label>date</label>
+         <input type="datetime-local">
+
+         <!--date by week-->
+         <input type="week">
+
+         <!--date by month-->
+         <input type="month">
+
+         <br>
+         <br>
+        
+         <label >Quantity</label>
+         <input type="number" min="3" max="150" step="3">
+
+        <br>
+        <br>
+
+        <!--send to backend-->
+         <input type="submit" value="login">
+
+         <!--remove data form-->
+         <input type="reset" value="remove">
+        
+        </fieldset>
+    </form>
+</body>
+</html>
